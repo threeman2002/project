@@ -3,9 +3,31 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/sign_up.css">
+        <!-- Bootstrap File -->
+        <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-icons-1.11.1/bootstrap-icons.css">
+         
         <title>Sign Up</title>
     </head>
     <body>
-        <h1> Hello </h1>
+        <div class="wrapper">
+           <form action="">
+            <h1>Sign Up</h1>
+            <div class="input-box">
+              <input type="text" placeholder="Username" required>
+              <i class="bi bi-person-fill"></i>
+            </div>
+            <div class="input-box">
+              <input type="password"  placeholder="Password" required>
+              <i class="bi bi-lock-fill"></i>
+            </div>
+
+            <button type="submit" class="btn">Sign Up</button>
+            <div class="login-link">
+              <p>Already have an account?<a href="index.html">Sign In</a></p>
+            </div>
+           </form>
+        </div>
     </body>
 </html>
