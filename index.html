@@ -3,31 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< HEAD
     <link href="assets/css/login_style.css" rel="stylesheet">
     <!-- Bootstrap File -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+=======
+    <link href="asset/css/login_style.css" rel="stylesheet" />
+>>>>>>> main
     <title>Document</title>
     <script>
       function focus_in(obj) {
-        obj.style.borderBottom="4px solid aqua";
+        obj.style.borderBottom = "4px solid aqua";
       }
       function focus_out(obj) {
-        obj.style.borderBottom="1px solid grey";
+        obj.style.borderBottom = "1px solid grey";
       }
     </script>
   </head>
   <body>
     <div class="container">
       <h1>Login</h1>
-          <form id="login_form"> 
-            <label>Username</label> <br>
-              <input type="text" id="username" name="username" placeholder="Enter Your Username Here" onfocus="focus_in(this)" onblur="focus_out(this)" required> <br>
-            <label>Password</label> <br>
-              <input type="password" id="password" name="password" placeholder="Enter Your Password Here" onfocus="focus_in(this)" onblur="focus_out(this)" required> <br>
-            <button>Log In</button>
-          </form>
-        <p>Don't Have An Account? <a href="signup_menu.html">Sign Up</a> Here </p> 
+      <form id="login_form">
+        <label>Username</label> <br />
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter Your Username Here"
+          onfocus="focus_in(this)"
+          onblur="focus_out(this)"
+          required
+        />
+        <br />
+        <label>Password</label> <br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Your Password Here"
+          onfocus="focus_in(this)"
+          onblur="focus_out(this)"
+          required
+        />
+        <br />
+        <button>Log In</button>
+      </form>
+      <p>Don't Have An Account? <a href="signup_menu.html">Sign Up</a> Here</p>
     </div>
-    
   </body>
 </html>
